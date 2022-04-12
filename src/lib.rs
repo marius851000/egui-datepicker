@@ -28,14 +28,10 @@
 //!
 //! [ex]: ./examples/simple.rs
 
-<<<<<<< HEAD
 pub mod translation;
 use translation::{DateTranslation, TRANSLATION_ENGLISH};
 
-use std::{fmt::Display, hash::Hash};
-=======
 use std::{convert::TryInto, fmt::Display, hash::Hash};
->>>>>>> better_month
 
 pub use chrono::{
     offset::{FixedOffset, Local, Utc},
